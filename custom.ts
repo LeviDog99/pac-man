@@ -1,4 +1,4 @@
-
+//% block="basic"
 /**
 * Use this file to define custom functions and blocks.
 * Read more at https://makecode.microbit.org/blocks/custom
@@ -14,7 +14,7 @@ enum MyEnum {
 /**
  * Custom blocks
  */
-//% weight=100 color=#0fbc11 icon=""
+//% weight=100 color=#0fbc11 icon="\uf00a"
 namespace pacman {
     /**
      * TODO: describe your function here
