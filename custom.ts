@@ -25,7 +25,11 @@ namespace pacman {
     //% block
     export function ghost(n: number, s: string, e: MyEnum): void {
         // Add code here
-        basic.showIcon(IconNames.Ghost)
+        
+        input.onGesture(Gesture.Shake, function() {
+            
+            basic.showIcon(IconNames.Ghost)
+        })
     }
 
     /**
