@@ -5,9 +5,9 @@
 */
 
 enum MyEnum {
-    //% block="one"
+    //% block="dont move"
     One,
-    //% block="two"
+    //% block="move"
     Two
 }
 
