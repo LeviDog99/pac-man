@@ -30,7 +30,7 @@ namespace pacman {
 
     /**
      * TODO: describe your function here
-     * @param value describe value here, eg: 5
+     * @param value describe value here, eg: 0
      */
     //% block
     export function pacman(value: number): number {
