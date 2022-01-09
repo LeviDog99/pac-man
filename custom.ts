@@ -1,11 +1,11 @@
-//% block="basic"
+
 /**
 * Use this file to define custom functions and blocks.
 * Read more at https://makecode.microbit.org/blocks/custom
 */
 
 enum MyEnum {
-    //% block="dont move"
+    //% block="not move"
     One,
     //% block="move"
     Two
@@ -19,22 +19,18 @@ namespace pacman {
     /**
      * TODO: describe your function here
      * @param n describe parameter here, eg: 0
-     * @param s describe parameter here, eg: "ghosts"
+     * @param s describe parameter here, eg: "ghost"
      * @param e describe parameter here
      */
     //% block
-    export function ghost(n: number, s: string, e: MyEnum): void {
+    export function ghosts(n: number, s: string, e: MyEnum): void {
         // Add code here
-        
-        input.onGesture(Gesture.Shake, function() {
-            
-            basic.showIcon(IconNames.Ghost)
-        })
+        basic.showIcon(IconNames.Ghost)
     }
 
     /**
      * TODO: describe your function here
-     * @param value describe value here, eg: 0
+     * @param value describe value here, eg: 5
      */
     //% block
     export function pacman(value: number): number {
